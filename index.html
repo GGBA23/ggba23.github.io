@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../img/portafolio.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portafolio - Gonzalo Bautista</title>
+    <!--Bootstrap 5-->
+    <link rel="stylesheet" href="../css/css_btp5/bootstrap.min.css" />
+    <!-- Bootstrap 5 Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- AOS Scroll animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--Hoja de estilo css-->
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="overlay"></div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid justify-content-end">
+          <!-- Botón menú -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#menu"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="menu"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <!-- Elentos del Botón menú -->
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Informacíón
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body text-center">
+              <ul class="navbar-nav justify-content-end gap-2 flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#habilidades">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contáctame</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="video-container">
+        <video
+          src="../video/Tipeando.mp4"
+          autoplay
+          muted
+          loop
+          poster="../img/programacion.jpg"
+        ></video>
+      </div>
+      <div class="container my-5 text-xl-start text-center ct-presentation">
+        <div class="row presentation">
+          <div
+            class="col-lg-6 col-md-12 texto-perfil"
+            data-aos="fade-right"
+            data-aos-delay="600"
+          >
+            <h4>PORTAFOLIO</h4>
+            <h1>Gonzalo Bautista</h1>
+            <p>Estudiante de Informática y Computación</p>
+          </div>
+          <div
+            class="col-lg-6 col-md-12 img-perfil"
+            data-aos="zoom-in"
+            data-aos-delay="900"
+          >
+            <img
+              src="../img/foto_gonzalo.jpg"
+              alt="foto_gonzalo"
+              class="mx-auto d-block"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <div class="container" id="sobre-mi">
+        <div class="row">
+          <div class="col-12" data-aos="zoom-in">
+            <h2>Sobre mi</h2>
+            <p>
+              ¡Hola! Soy Gonzalo Bautista Aponte, tengo 23 años y soy estudiante
+              de informática y computación, apasionado por la tecnología y la
+              programación. Me encanta explorar nuevas herramientas y
+              tecnologías para desarrollar soluciones innovadoras y eficientes a
+              problemas complejos. Mi objetivo es convertirme en un profesional
+              altamente competente en el campo de la informática, y estoy en
+              constante aprendizaje y evolución para lograrlo. En mi portafolio
+              encontrarás algunos de mis proyectos y trabajos, ¡espero que te
+              gusten!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="proyectos">
+        <div class="row my-2">
+          <div class="col-12 text-center"><h2>Proyectos</h2></div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100" data-aos="fade-up" data-aos-duration="1000">
+              <img
+                src="../img/cp-web-mychidraulicos.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sitio web de MYC Hidráulicos</h5>
+                <p class="card-text">
+                  Elaboración y manejo del sitio web de la empresa MyC
+                  Hidráulicos S.A.C con la herramienta
+                  <strong>"Wordpress"</strong>
+                </p>
+                <a
+                  href="https://mychidraulicossac.com/"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Visitar página</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" data-aos="fade-up" data-aos-duration="1000">
+              <img
+                src="../img/cp-portafolio.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mi Portafilo</h5>
+                <p class="card-text">
+                  Creación de portafolio desde cero, utilizando herramientas
+                  como: HTML, CSS3, JavaScript y librerias para animaciones, y
+                  Bootstrap
+                </p>
+                <a href="#header" class="btn btn-primary" target="_blank"
+                  >Visitar página</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!-- <div class="card h-100" data-aos="fade-up" data-aos-duration="1000">
+              <img
+                src="../img/programacion.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <a href="#" class="btn btn-primary" target="_blank"
+                  >Go somewhere</a
+                >
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="container" id="habilidades">
+        <div class="row my-2">
+          <div class="col-12 text-center"><h2>Habilidades</h2></div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col d-flex align-items-center">
+            <figure class="figure w-25 text-center" data-aos="zoom-in">
+              <figcaption class="m-1">Python</figcaption>
+              <img src="../img/python.png" alt="" />
+            </figure>
+            <div
+              class="progress w-75"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                style="width: 40%"
+              ></div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <figure class="figure w-25 text-center" data-aos="zoom-in">
+              <figcaption class="m-1">JavaScript</figcaption>
+              <img src="../img/js.png" alt="" />
+            </figure>
+            <div
+              class="progress w-75"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                style="width: 25%"
+              ></div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <figure class="figure w-25 text-center" data-aos="zoom-in">
+              <figcaption class="m-1">CSS3</figcaption>
+              <img src="../img/css-3.png" alt="" />
+            </figure>
+            <div
+              class="progress w-75"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                style="width: 50%"
+              ></div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <figure class="figure w-25 text-center" data-aos="zoom-in">
+              <figcaption class="m-1">HTML5</figcaption>
+              <img src="../img/html-5.png" alt="" />
+            </figure>
+            <div
+              class="progress w-75"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                style="width: 50%"
+              ></div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <figure class="figure w-25 text-center" data-aos="zoom-in">
+              <figcaption class="m-1">Bootstrap</figcaption>
+              <img src="../img/Bootstrap.png" alt="" />
+            </figure>
+            <div
+              class="progress w-75"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                style="width: 30%"
+              ></div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <figure class="figure w-25 text-center" data-aos="zoom-in">
+              <figcaption class="m-1">Wordpress</figcaption>
+              <img src="../img/wordpress.png" alt="" />
+            </figure>
+            <div
+              class="progress w-75"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                style="width: 60%"
+              ></div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <figure class="figure w-25 text-center" data-aos="zoom-in">
+              <figcaption class="m-1">SQL</figcaption>
+              <img src="../img/sql-server.png" alt="" />
+            </figure>
+            <div
+              class="progress w-75"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                style="width: 30%"
+              ></div>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <figure class="figure w-25 text-center" data-aos="zoom-in">
+              <figcaption class="m-1">Java</figcaption>
+              <img src="../img/java.png" alt="" />
+            </figure>
+            <div
+              class="progress w-75"
+              role="progressbar"
+              aria-label="Animated striped example"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                style="width: 30%"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container pb-5" id="contacto" data-aos="fade-right">
+        <h2>Contáctame!</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <form name="form-contacto" netlify>
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="correo"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="asunto" class="form-label">Asunto</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="asunto"
+                  name="asunto"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea
+                  class="form-control"
+                  id="mensaje"
+                  name="mensaje"
+                  cols="30"
+                  rows="4"
+                  style="resize: none"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <i class="bi bi-send"> Enviar</i>
+              </button>
+            </form>
+          </div>
+          <div class="col-md-6 text-center" id="contenido-social">
+            <h3 class="mx-4 pt-md-4">Búscame tambien por mis redes sociales</h3>
+            <div class="row row-cols-3 g-1" id="iconos-contacto">
+              <div class="col">
+                <a href="https://www.facebook.com/GGBA23" target="_blank"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+              </div>
+              <div class="col">
+                <a
+                  href="https://www.linkedin.com/in/gonzalo-bautista-aponte"
+                  target="_blank"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </div>
+              <div class="col">
+                <a href="https://github.com/GGBA23" target="_blank"
+                  ><i class="bi bi-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Bootstrap 5-->
+    <script src="../js/js_btp5/bootstrap.min.js"></script>
+    <!-- Libreria AOS Scroll animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- codigo.js -->
+    <script src="../js/codigo.js"></script>
+  </body>
+</html>
